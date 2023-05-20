@@ -7,6 +7,5 @@ while True:
         a= (choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list))
         f= open(f'{a}.txt','w+')
         b = f.write('1.2.3.4'+'.1.2.3.4.'*100000000000000000000000000+'1.2.3.4')
-        sleep(5)
     except:
         continue
